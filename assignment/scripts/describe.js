@@ -27,9 +27,9 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // We create a variable called name and assign it the string value 'Dane'
-// Then we create a conditional, checking to see if the variable 'name' is 'Mary'
-// If 'name' does equal 'Mary' we console log 'Hi, Mary!'
-// If 'name' does not equal 'Mary' we console log 'How do you do?'
+// Then we create a conditional, checking to see if the variable name is 'Mary'
+// If name does equal 'Mary' we console log 'Hi, Mary!'
+// If name does not equal 'Mary' we console log 'How do you do?'
 
 // In this case the end result would be console logging 'How do you do?'
 
@@ -47,11 +47,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// First we create a variable, 'secret', without assigning it a value
-// Then we create a variable, 'code', with a valur of 123
-// Then we create a conditional statement that checks to see if the value of 'code' is equal to 123. If it is then the value of 'secret' becomes 'super' and the value of 'code' gets multiplied by 2.
-// Then we create another conditional statement that checks if 'code' is greater than 250. If it is then the value of 'secret' becomes 'duper'
-// Lastly we console log 'secret', which will result in logging the 'super' to the console, since the value of 'code' is 246, which is less than 250 and doesn't meet the requirement to switch 'secret' to 'duper'
+// First we create a variable, secret, without assigning it a value
+// Then we create a variable, code, with a value of 123
+// Then we create a conditional statement that checks to see if the value of code is equal to 123. If it is then the value of secret becomes 'super' and the value of code gets multiplied by 2.
+// Then we create another conditional statement that checks if code is greater than 250. If it is then the value of secret becomes 'duper'
+// Lastly, we console log secret, which will result in logging 'super' to the console, since the value of code is 246, which is less than 250 and doesn't meet the requirement to switch secret to 'duper'
 
 //CODE
 /*
@@ -73,12 +73,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// First we create a variable called 'isStudent' and set it's value to 'true'
-// Then we create a variable called 'age' and assign it a value of 34
-// Then we create a variable called 'zip' and assign it a value of 55407
-// Then we create a conditional statement that first checks to see if 'isStudent' is true, and if 'zip' is greater than 80000. If both of those are true then we console log 'You're a student on the West Coast!'
-// If one of those statements is false we check our next if statement, which checks if either 'isStudent' is false or if 'age' is less than 30. If either of those is true we console log 'What are your hobbies?'
-// If both of those statements are false we check a third if statement, which checks to see if 'isStudent' is true. If it is we console log 'Welcome to Prime!'
+// First we create a variable called isStudent and set it's value to 'true'
+// Then we create a variable called age and assign it a value of 34
+// Then we create a variable called zip and assign it a value of 55407
+// Then we create a conditional statement that first checks to see if isStudent is true, and if zip is greater than 80000. If both of those are true then we console log 'You're a student on the West Coast!'
+// If one of those statements is false we check our next if statement, which checks if either isStudent is false or if age is less than 30. If either of those is true we console log 'What are your hobbies?'
+// If both of those statements are false we check a third if statement, which checks to see if isStudent is true. If it is we console log 'Welcome to Prime!'
 // And lastly if none of the first three if statements evaluate to true we console log 'How about the weather?'
 // With the values we assigned our variables we would console log 'Welcome to Prime!'
 
